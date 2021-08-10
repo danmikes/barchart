@@ -1,0 +1,105 @@
+<html>
+  <head>
+    <title>survey</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">freeCodeCamp survey form</h1>
+      <p id="description">be so kind to provide feedback about this site</p>
+    </header>
+    <main>
+      <form id="survey-form" action="submit">
+        <div id="details">
+          <label for="name" id="name-label">name (required)</label>
+            <input id="name" type="text" placeholder="name" required>
+          <label for="email" id="email-label">email (required)</label>
+            <input id="email" type="email" placeholder="email" required>
+          <label for="number" id="number-label">age (optional)</label>
+            <input id="number" type="number" min="18" max="100" placeholder="age">
+        </div>
+        <div id="role-dropdown">
+          <label for="dropdown" id="dropdown-label">current role</label>
+            <select id="dropdown">
+              <option value="">select current role</option>
+              <option value="">student</option>
+              <option value="">teacher</option>
+              <option value="">developer</option>
+              <option value="">prefer not say</option>
+              <option value="">other</option>
+            </select>
+        </div>
+        <div id="recommend-radio">
+          <p>would you recommend freeCodeCamp?</p>
+          <div id="radio">
+            <input id="yes" type="radio" name="recommend" value="yes">
+              <label for="yes" id="yes-label">yes</label>
+            <input id="maybe" type="radio" name="recommend" value="maybe">
+              <label for="maybe" id="maybe-label">maybe</label>
+            <input id="no" type="radio" name="recommend" value="no">
+              <label for="no" id="no-label">no</label>
+          </div>
+        </div>
+        <div id="good-checkbox">
+          <label for="good" id="good-label">your favourite feature of freeCodeCamp</label>
+            <select id="good">
+              <option value="">select option</option>
+              <option value="challenges">challenges</option>
+              <option value="projects">projects</option>
+              <option value="community">community</option>
+              <option value="source">open source</option>
+            </select>
+        </div>
+        <div id="bad-checkbox">
+          <p>what would you want improved (check all applicable)</p>
+          <div>
+            <input id="item1" type="checkbox" name="items" value="backend">
+            <label for="item1">backend projects</label>
+          </div>
+          <div>
+            <input id="item2" type="checkbox" name="items" value="frontend">
+            <label for="item2">frontend projects</label>
+          </div>
+          <div>
+            <input id="item3" type="checkbox" name="items" value="data">
+            <label for="item3">data visualisation</label>
+          </div>
+          <div>
+            <input id="item4" type="checkbox" name="items" value="challenge">
+            <label for="item4">challenges</label>
+          </div>
+          <div>
+            <input id="item5" type="checkbox" name="items" value="opensource">
+            <label for="item5">open source projects</label>
+          </div>
+          <div>
+            <input id="item6" type="checkbox" name="items" value="tutor">
+            <label for="item6">tutoring</label>
+          </div>
+          <div>
+            <input id="item7" type="checkbox" name="items" value="video">
+            <label for="item7">videos</label>
+          </div>
+          <div>
+            <input id="item8" type="checkbox" name="items" value="wiki">
+            <label for="item8">wiki</label>
+          </div>
+          <div>
+            <input id="item9" type="checkbox" name="items" value="forum">
+            <label for="item9">forum</label>
+          </div>
+          <div>
+            <input id="item10" type="checkbox" name="item1s" value="extra">
+            <label for="item10">extra courses</label>
+          </div>
+        </div>
+        <div id="comment">
+          <label for="comment">comments/suggestions</label>
+            <textarea id="comment" type="text" rows="10" cols="60" placeholder="enter comments/suggestions here"></textarea>
+        </div>
+        <input id="submit" type="submit" value="submit">
+      </form>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>

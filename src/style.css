@@ -1,0 +1,109 @@
+html {
+  background: transparent url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.BUGP9bvAznTuh1DHfSzYkQHaEK%26pid%3DApi&f=1");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+h1 {
+  margin: 0.5rem;
+}
+
+p {
+  margin: 0.5rem;
+}
+
+main {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: hsla(120,100%,25%,0.3);
+}
+
+input, #dropdown, #comment, #good {
+  margin-top: 5px;
+  margin-bottom: 25px;
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+}
+
+#recommend-radio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+#radio {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+#radio input {
+  margin-left: 1rem;
+}
+
+#radio label {
+  margin-right: 1rem;
+}
+
+label{
+  font-size: 1.5rem;
+}
+
+input[type="radio"]{
+  display: inline-block;
+  width: 100%;
+  height: 1.3rem;
+}
+
+#bad-checkbox {
+  align-items: left;
+}
+
+#bad-checkbox div {
+  margin: auto;
+  width: 40%;
+  display: flex;
+  align-self: flex-end;
+}
+
+#bad-checkbox div label {
+  width: auto-flow;
+}
+
+#bad-checkbox div input {
+  width: auto;
+}
+
+input[type="checkbox"]{
+  width: 100%;
+  height: 1.1rem;
+}
+
+#comment {
+  margin-bottom: 0;
+}
+
+#submit {
+  width: auto;
+}
